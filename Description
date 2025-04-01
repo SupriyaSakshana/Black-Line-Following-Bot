@@ -1,0 +1,61 @@
+Hi everyone!
+
+This is an elementary bot which follows a black path on a lighter background. The robot detects change in direction by sensing change in color through the two LDR sensors.
+
+
+WORKING:
+
+There are two LEDs which shine light on the track surface. Normally, light falls on white surface and reflects back. The reflected light is caught by the LDRs.
+These LDRs are attached to the wheel motor and the wheels rotate when light falls on LDR (Resistance of a Light dependent resistor is inversely proportional to the energy of light falling on it).
+When a turn is encountered (say left side turn), the LDR on left would stop receiving reflected light as most of the light from LED would be absorbed by the black color. Hence the left motor stops working and left wheel stops rotating, while the right wheel keeps moving forward. Therefore, in total the robot turns left.
+
+
+
+These are the materials you will be needing to make this robot:
+
+solder wire and soldering iron
+a multimeter
+a chasis with two side wheels
+two castor wheel (to attach below the chasis body)
+two small size motors (one for each wheel )
+few plus/minus ended screwdrivers (according to the screw)
+Two transistors (preferably D880, but I used BC547)
+Two potentiometers (10K)
+Two diodes (1N4007)
+Two resistors (100 Ohm)
+One Voltage Regulator IC 7805
+Two 4-pin Connectors/Junction pins
+One 9 Volts batteryNow we have to make the bot according to this circuit.
+
+I started by connecting the castor wheels to the bot side which has to face the ground.
+
+Next, I connected the motors and wheels to the chasis body.
+
+After that, I made the sensor which is on top - right of the circuit diagram.
+
+Then I made the main body of the bot.
+A general purpose PCB board
+connecting wires/ jumper wires.
+Some double sided tape (to stick the sensors below the chasis)
+
+
+Individually prepare the two sensors by connecting the negative leg of LED to a 100 Ohm resistor and the positive leg to a LDR.
+
+Fix a 4 pin connector on the main PCB and connect both the sensor to this connector as shown in circuit.
+
+
+1. In each step, check for any short - circits (due to soldering error or wrong connections) using multimeter.
+
+2. Before fastening the motors to the chasis, make sure both rotate in the same desirable direction.
+
+3. Motors are connected to the ground-facing side of the chasis. Hence, make sure to bring it's wire to the other side of chasis through the cavity, for connecting to PCB.
+
+4. Make a common ground line at one end of the PCB. Connect all grounds in the circuit and the negative of the battery here.
+
+5. After completing the PCB, cut it to fit in the chasis cavity.
+
+6. After completion, if the wheels are not rotating synchronously, the bot may move in a weird manner.                      
+
+                       
+
+                       
